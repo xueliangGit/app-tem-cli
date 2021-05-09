@@ -1,7 +1,7 @@
 <!--
  * @Author: xuxueliang
  * @Date: 2021-05-08 16:55:06
- * @LastEditTime: 2021-05-09 18:01:42
+ * @LastEditTime: 2021-05-09 18:05:00
  * @LastEditors: xuxueliang
  * @Description:
 -->
@@ -21,3 +21,7 @@
 ```
 
 该工具需要自行通过命令来添加自己的模版，方便个人和团队使用。
+
+## 安装
+
+`npm i app-tem-cli -g`
