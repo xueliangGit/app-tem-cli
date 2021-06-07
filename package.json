@@ -1,6 +1,6 @@
 {
   "name": "app-tem-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "git项目框架模板管理工具",
   "main": "index.js",
   "bin": {

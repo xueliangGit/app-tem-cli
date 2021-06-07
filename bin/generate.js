@@ -47,38 +47,6 @@ program
     require('./cmd/del')(gitName)
   })
 console.log('')
-// program.parse(process.argv)
-
-// program
-//   .command('clean')
-//   .description('clean cache ')
-//   .action(function (name) {
-//     doUrl('clean', name)
-//   })
-// program.command('*').action(function (env) {
-//   showinfo('没有找到命令')
-// })
-
-// program.parse(process.argv)
-// function make_red(txt) {
-//   return chalk.magentaBright(' \n', txt, ' \n', getStr())
-// }
-// function getStr() {
-//   return chalk.gray(' \n', strBy[parseInt(Math.random() * strBy.length)], '  --by 无声', ' \n')
-// }
-// function doUrl(type, paths, randomNum, doStyle) {
-//   switch (type) {
-//     case 'create':
-//       down(paths, randomNum)
-//       break
-//     case 'clean':
-//       clean()
-//       break
-//     default:
-//       showinfo('uncaught command')
-//       break
-//   }
-// }
 function showinfo(errInfo = '') {
   if (errInfo) console.log(chalk.red(`ERROR: ${errInfo}`))
   console.log()
